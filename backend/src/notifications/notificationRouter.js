@@ -26,10 +26,10 @@ async function routeNotification({ recipient, title, message, data }) {
   return notificationManager.dispatch({
     recipient,
     payload: {
-    title,
-    message,
-    data
-    };
+      title,
+      message,
+      data
+    }
   });
 }
 

@@ -7,15 +7,6 @@
     "icon": "./assets/images/icon.png",
     "scheme": "notifyflowdemo",
     "userInterfaceStyle": "automatic",
-    "ios": {
-      "supportsTablet": true,
-      "googleServicesFile": "./GoogleService-Info.plist",
-      "infoPlist": {
-        "UIBackgroundModes": [
-          "remote-notification"
-        ]
-      }
-    },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
