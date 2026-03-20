@@ -8,6 +8,7 @@
     "scheme": "notifyflowdemo",
     "userInterfaceStyle": "automatic",
     "android": {
+      "package": "com.notifyflow.demo",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -40,14 +41,15 @@
         }
       ]
     ],
-    "extra": {
-      "eas": {
-        "projectId": "YOUR_EAS_PROJECT_ID"
-      }
-    },
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "67e9ee8a-b604-4e87-837d-c7d45a6dc12c"
+      }
     }
   }
 }
